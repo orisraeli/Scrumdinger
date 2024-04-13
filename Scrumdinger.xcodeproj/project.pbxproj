@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451CB1BC2BCA72FF00F04E28 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CB1BB2BCA72FF00F04E28 /* NewScrumSheet.swift */; };
+		451CB1BE2BCA74B100F04E28 /* EditScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CB1BD2BCA74B100F04E28 /* EditScrumSheet.swift */; };
 		452132352BBFF75D00EEC0CB /* ScurmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452132342BBFF75D00EEC0CB /* ScurmsView.swift */; };
 		452132372BC158F500EEC0CB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452132362BC158F500EEC0CB /* DetailView.swift */; };
 		452132392BC1668500EEC0CB /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452132382BC1668500EEC0CB /* DetailEditView.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		451CB1BB2BCA72FF00F04E28 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
+		451CB1BD2BCA74B100F04E28 /* EditScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScrumSheet.swift; sourceTree = "<group>"; };
 		452132342BBFF75D00EEC0CB /* ScurmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScurmsView.swift; sourceTree = "<group>"; };
 		452132362BC158F500EEC0CB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		452132382BC1668500EEC0CB /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
@@ -125,7 +129,9 @@
 			children = (
 				4556CA922BBFED11009785E9 /* CardView.swift */,
 				452132342BBFF75D00EEC0CB /* ScurmsView.swift */,
+				451CB1BB2BCA72FF00F04E28 /* NewScrumSheet.swift */,
 				452132362BC158F500EEC0CB /* DetailView.swift */,
+				451CB1BD2BCA74B100F04E28 /* EditScrumSheet.swift */,
 				452132382BC1668500EEC0CB /* DetailEditView.swift */,
 				4556CA7D2BBEFB11009785E9 /* MeetingView.swift */,
 				4521323E2BC6E5F400EEC0CB /* MeetingHeaderView.swift */,
@@ -223,6 +229,8 @@
 				452132372BC158F500EEC0CB /* DetailView.swift in Sources */,
 				4521323F2BC6E5F400EEC0CB /* MeetingHeaderView.swift in Sources */,
 				452132392BC1668500EEC0CB /* DetailEditView.swift in Sources */,
+				451CB1BE2BCA74B100F04E28 /* EditScrumSheet.swift in Sources */,
+				451CB1BC2BCA72FF00F04E28 /* NewScrumSheet.swift in Sources */,
 				4556CA8E2BBFE9B6009785E9 /* Theme.swift in Sources */,
 				452132352BBFF75D00EEC0CB /* ScurmsView.swift in Sources */,
 				45583F8F2BC6EA46000717E6 /* TrailingIconLabelStyle.swift in Sources */,
