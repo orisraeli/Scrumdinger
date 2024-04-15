@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ScurmsView: View {
 	@Binding var scrums: [DailyScrum]
+	@Environment(\.scenePhase) private var scenePhase
 	@State private var isPresentingNewScrumSheet = false
+	
+	let saveAction: () -> Void
 	
     var body: some View {
 		NavigationStack {
@@ -30,11 +33,14 @@ struct ScurmsView: View {
 		.sheet(isPresented: $isPresentingNewScrumSheet) {
 			NewScrumSheet(scrums: $scrums, isPresentingSheet: $isPresentingNewScrumSheet)
 		}
+		.onChange(of: scenePhase) {
+			if scenePhase == .inactive { saveAction() }
+		}
     }
 }
 
 #Preview {
 	NavigationStack {
-		ScurmsView(scrums: .constant(DailyScrum.sampleData))
+		ScurmsView(scrums: .constant(DailyScrum.sampleData), saveAction: {})
 	}
 }
