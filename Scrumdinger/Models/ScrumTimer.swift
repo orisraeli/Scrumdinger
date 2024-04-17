@@ -1,9 +1,6 @@
-//
-//  ScrumTimer.swift
-//  Scrumdinger
-//
-//  Created by Or Israeli on 10/04/2024.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import Foundation
 
